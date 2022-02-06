@@ -14,4 +14,4 @@ jobs:
         run: ./.github/scripts/compile_script.sh "${pwd}"
         shell: bash
       - name: Run Program
-        run: ./submission < .github/scripts/inputs01 2>&1
+        run: ./submission < .github/scripts/inputs 2>&1

@@ -13,6 +13,5 @@ jobs:
       - name: Compile Code
         run: ./.github/scripts/compile_script.sh "${pwd}"
         shell: bash
-      - name: Run program
-        run: ./submission
-        shell: bash
+      - name: Run Program
+        run: ./submission < .github/scripts/inputs01 2>&1
